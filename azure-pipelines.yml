@@ -8,7 +8,7 @@ trigger:
 
 pool:
   vmImage: ubuntu-latest
-
+  name: "AZ400"
 steps:
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
